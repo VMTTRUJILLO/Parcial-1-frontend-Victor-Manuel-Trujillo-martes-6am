@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.form-floating {
+  margin: 20px;
+  width: 300px;
+}
+
+.form-control {
+  border: 1px solid #ccc;
+  border-radius: 9px;
+}
+
+.form-check {
+  margin-left: 20px;
+}
+
+.btn-primary {
+  margin: 20px;
+  width: 300px;
+  border-radius: 9px;
+  margin-top: 1.5px;
+}
+
+#carouselExampleSlidesOnly {
+  width: 600px;   /* ancho fijo */
+  max-width: 90%; /* que no se pase en pantallas pequeñas */
+  margin: 0 auto; /* centra el carrusel */
+}
+
+#carouselExampleSlidesOnly img {
+  height: 300px;      /* controla la altura */
+ 
+}
+
