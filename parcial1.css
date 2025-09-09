@@ -11,6 +11,9 @@ body {
   line-height: 1.5;
 }
 
+
+
+/*menu admin*/
 .form-floating {
   margin: 20px;
   width: 300px;
@@ -42,4 +45,50 @@ body {
   height: 300px;      /* controla la altura */
  
 }
+
+
+
+/*menu noticias*/
+.empresa-name {
+  text-align: center;
+  margin: 20px;
+  font-size: 14px;
+  color: white;
+  background-color: black;
+  margin: 0;
+  padding: 10px;
+}
+
+.nav-item a {
+  color: black;
+  border: none !important;     /* quita borde */
+  text-decoration: none; 
+  gap: 20px;
+}
+
+
+
+
+
+
+
+
+.line {
+  border: none;          /* quita el borde por defecto */
+  height: 2px;           /* grosor de la línea */
+  background-color: black; /* color negro */
+  margin: 20px auto; 
+  width: 95%;  
+}
+
+.footer{
+  text-align: center;
+  margin: 20px;
+  font-size: 24px;
+  color: black;
+  margin: 0;
+  padding: 10px;
+}
+
+
 

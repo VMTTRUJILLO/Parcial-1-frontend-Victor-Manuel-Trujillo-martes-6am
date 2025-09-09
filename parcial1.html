@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="parcial1.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.js"></script>
-    <script src="parcial1.js"></script>
+    
     
 </head>
 <body>
@@ -17,7 +17,52 @@
 
     </header>
 
-    <!-- LOGIN -->
+   <!--Menu Admin-->
+    <div class="container my-5">
+    <h5 class="text-center mb-4">Por favor ingrese sus credenciales</h5>
+    <form id="loginForm">
+  <div class="mb-3">
+    <label for="usuario" class="form-label">Usuario</label>
+    <input type="text" class="form-control" id="usuario" required>
+  </div>
+  <div class="mb-3">
+    <label for="clave" class="form-label">Clave</label>
+    <input type="password" class="form-control" id="clave" required>
+  </div>
+  <div class="d-flex justify-content-between">
+    <button type="submit" class="btn btn-primary">Log In</button>
+    <button type="button" class="btn btn-success" id="btnSignup">Sign Up</button>
+    <button type="button" class="btn btn-danger" id="btnCancel">Cancelar</button>
+  </div>
+</form>
+  </div>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   
+   
+    <!-- LOGIN -->          
         <form>
           <div class="form-floating mb-3">
       <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
@@ -53,7 +98,6 @@
 
 
 
-
     <footer>
 
     </footer>
@@ -61,6 +105,6 @@
 
 
 
-
+  <script src="parcial1.js"></script>
 </body>
 </html>
