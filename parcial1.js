@@ -20,6 +20,23 @@
   });
 
 
+
+
+ //--Noticias--
+
+ const formBusqueda = document.getElementById("form-busqueda");
+  const inputBusqueda = document.getElementById("input-busqueda");
+
+  // Evento al enviar el formulario
+  formBusqueda.addEventListener("submit", function(e) {
+    e.preventDefault(); // evita que se recargue la página
+    console.log("Texto buscado:", inputBusqueda.value); // imprime en consola lo que buscó
+  });
+
+
+
+
+
   //---Admin---
     const form = document.getElementById("loginForm");
 

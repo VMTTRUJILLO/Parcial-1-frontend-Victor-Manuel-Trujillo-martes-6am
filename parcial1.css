@@ -66,7 +66,26 @@ body {
   gap: 20px;
 }
 
+.row {
+  display: flex;
+  text-align: center;
+}
 
+.card-header {
+  text-align: left;
+}
+
+.card-title {
+  text-align: left;
+}
+
+.card-text {
+  text-align: left;
+}
+
+.btn-primary {
+  padding-top: 30px;
+}
 
 
 
@@ -91,4 +110,16 @@ body {
 }
 
 
+.pagination-footer{
+  display: flex;
+  gap: 400px;
+  text-align: center;
+  margin-left: 275px;
+  margin-right: 300px;
+  border: 0.5px solid black;  /* borde visible */
+  padding: 20px;            /* espacio interno */
+  margin: 20px auto;        /* espacio externo y centrado */
+  width: 80%;               /* ancho del cuadro */
+  border-radius: none ;
+}
 
