@@ -2,7 +2,7 @@
   
   
   console.log("Hola, este es mi primer parcial de Frontend");
-  
+  console.log("Mi nombre es Victor Hugo Rojas Rojas");
   
   
   
@@ -51,3 +51,13 @@
     console.log("Usuario ingresado:", usuario);
     console.log("Clave ingresada:", clave);
   });
+
+   // Botón Sign Up → redirigir a signup.html
+    document.getElementById("btnSignup").addEventListener("click", () => {
+      window.location.href = "SignUp.html";
+    });
+
+    // Botón Cancelar → redirigir a noticias.html
+    document.getElementById("btnCancel").addEventListener("click", () => {
+      window.location.href = "Noticias.html";
+    });
